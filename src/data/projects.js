@@ -1,47 +1,43 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
+    title: 'Unifans',
     subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    link: 'https://app.unifans.io',
+    image: '/images/projects/Unifans.png',
+    date: '2023-10-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Developed a subsription based Patronage Platform. '
+      + 'Creators can post their photos, videos and web novels '
+      + 'And your fans can subcribe your sponsor schema! '
+      + 'Unifans is perfectly responsive for all devices',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'AI QRcode Generator',
+    link: 'https://textrapp.com/free-tools/free-qr-code-generator-tool',
+    image: '/images/projects/QRCodeGenerator.png',
+    date: '2023-9-1',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Powered By Stable Diffusion API and GPU, '
+      + 'you can create an impressive AI QRCode by simply input a prompt in just 10 seconds! ',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'AI Travel Planner',
+    link: 'https://esim.textrapp.com/free-tools/AI-travel-planner/itinerary/html/529508563f344d6fb4a51ef7125c9154.html',
+    image: '/images/projects/TravelPlanner.png',
+    date: '2023-10-01',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Want to have a trip? But have not decided where to go? '
+      + 'This AI Travel Planner will help you costomize your trip, and give you the best suggestion on the restaurant, attractions and hotels. '
+      + 'It is all powered by OpenAi API and Google API',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'DpNovo',
+    image: '/images/projects/DpNovo.png',
+    date: '2022-10-01',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      ' This thesis presents a new De Novo sequencing model comprising two deep learning models and a dynamic programming algorithm, namely DpNovo. '
+      + 'The accuracy of peptide sequence prediction obtained through the dynamic programming algorithm is comparable to those of other proposed de novo sequencing models. ',
   },
 ];
 

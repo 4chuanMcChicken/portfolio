@@ -16,7 +16,7 @@ const work = [
     name: 'Genvoice Telecom',
     position: 'Full Stack Developer',
     url: 'https://smileidentity.com',
-    startDate: '2022-01-01',
+    startDate: '2023-09-01',
     summary: 'Developed both front-end and back-end of a subsciprtion based web application "<a href="https://app.unifans.io" style="color: blue;">Unifans</a>", utilizing Node.js, Vue.js, Koa.js, NoSQL database CouchDB, and Wasabi for cloud storage. ',
     highlights: [
       'Developed over 15 new features, including utilizing WebSockets and Redis to construct a real-time private messaging system, post collection, createing sitemap for improving Google SEO, calling OpenAI API for content translation, build a beta environment by configuring HAProxy for user testing new features, etc.',

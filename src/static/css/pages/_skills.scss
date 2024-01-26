@@ -91,3 +91,22 @@
 	color:#444;
 	color:rgba(0, 0, 0, 0.4);
 }
+
+@include breakpoint(small) {
+	.skillbar {
+		height:30px !important;
+	}
+	.skillbar-title span {
+		height: 30px !important;
+		line-height: 30px !important;
+	}
+
+	.skillbar-bar {
+		height: 30px !important;
+	}
+
+	.skill-bar-percent {
+		height: 30px !important;
+		line-height: 30px !important;
+	}
+}
