@@ -32,7 +32,7 @@ const data = [
       + 'It is all powered by OpenAi API and Google API',
   },
   {
-    title: 'DpNovo',
+    title: 'DpNovo (Electronic Thesis)',
     image: '/images/projects/DpNovo.png',
     date: '2022-10-01',
     desc:

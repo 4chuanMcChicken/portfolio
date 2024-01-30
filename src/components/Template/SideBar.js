@@ -19,8 +19,10 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Yizhou Li. I am junior Full Stack Developer, and I have a master&apos;s degree
-        in computer science from Western University.
+      <p>Hi, I&apos;m Yizhou Li. I am junior Full Stack Developer.
+        I graduated from Western University with a master&apos;s degree
+        in computer science. Now I am currently working as a
+        Full Stack Developer at Genvoice Telecom.
       </p>
       <ul className="actions">
         <li>
