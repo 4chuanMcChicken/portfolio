@@ -15,7 +15,7 @@ const work = [
   {
     name: 'Genvoice Telecom',
     position: 'Full Stack Developer',
-    url: 'https://smileidentity.com',
+    url: 'https://www.genvoice.net/',
     startDate: '2023-09-01',
     summary: 'Developed both front-end and back-end of a subsciprtion based web application "<a href="https://app.unifans.io" style="color: blue;">Unifans</a>", utilizing Node.js, Vue.js, Koa.js, NoSQL database CouchDB, and Wasabi for cloud storage. ',
     highlights: [
@@ -32,7 +32,7 @@ const work = [
   {
     name: 'Western University',
     position: 'Research Assistant and Teaching Assistant',
-    url: 'http://skepticalinvestments.biz',
+    url: 'https://www.uwo.ca/index.html',
     startDate: '2022-01-01',
     endDate: '2023-07-01',
     summary: 'Serving as a research assistant, responsible for conducting research on tandem mass spectrometry. Published a thesis <a href="https://ir.lib.uwo.ca/etd/9373/" style="color: blue;">DpNovo: A DEEP LEARNING MODEL COMBINED WITH DYNAMIC PROGRAMMING FOR DE NOVO PEPTIDE SEQUENCING</a>, reaching 100+ downloads . Additionally, serving as a teaching assistant for undergraduate students, overseeing the grading of assignments and exams, and conducting weekly office hours to address any questions or concerns.',

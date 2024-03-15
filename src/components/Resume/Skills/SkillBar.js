@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const SkillBar = ({ data, categories }) => {
-  const { category, competency, title } = data;
+  const {
+    category, title, icon,
+  } = data;
 
   // TODO: Consider averaging colors
   const titleStyle = {
@@ -11,16 +13,25 @@ const SkillBar = ({ data, categories }) => {
       .map((cat) => cat.color)[0],
   };
 
-  const barStyle = {
-    ...titleStyle,
-    width: `${String(Math.min(100, Math.max((competency / 5.0) * 100.0, 0)))}%`,
-  };
+  // const barStyle = {
+  //   ...titleStyle,
+  //   width: `${String(Math.min(100, Math.max((competency / 5.0) * 100.0, 0)))}%`,
+  // };
 
   return (
-    <div className="skillbar clearfix">
+  // <div className="skillbar clearfix">
+  //   <div className="skillbar-title" style={titleStyle}><span>{title}</span></div>
+  //   {/* <div className="skillbar-bar" style={barStyle} /> */}
+  //   {/* <div className="skill-bar-percent">{competency} / 5</div> */}
+  //   <img className="skill-bar-icon" alt={titleStyle} src={icon} />
+  // </div>
+    <div className="skillbar">
       <div className="skillbar-title" style={titleStyle}><span>{title}</span></div>
-      <div className="skillbar-bar" style={barStyle} />
-      <div className="skill-bar-percent">{competency} / 5</div>
+      {/* <div className="skillbar-bar" style={barStyle} /> */}
+      {/* <div className="skill-bar-percent">{competency} / 5</div> */}
+      <div>
+        {icon && <img className="skill-bar-icon" alt={titleStyle} src={icon} />}
+      </div>
     </div>
   );
 };
@@ -30,6 +41,7 @@ SkillBar.propTypes = {
     category: PropTypes.arrayOf(PropTypes.string).isRequired,
     competency: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
   }).isRequired,
   categories: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string,
