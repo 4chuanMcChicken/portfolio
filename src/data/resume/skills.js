@@ -257,6 +257,18 @@ const skills = [
     category: ['Databases'],
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/couchdb/couchdb-original.svg',
   },
+  {
+    title: 'Linux',
+    competency: 3,
+    category: ['Development Tools'],
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg',
+  },
+  {
+    title: 'Nginx',
+    competency: 3,
+    category: ['Development Tools'],
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg',
+  },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be === to the
