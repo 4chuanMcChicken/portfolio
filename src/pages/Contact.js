@@ -7,7 +7,7 @@ import EmailLink from '../components/Contact/EmailLink';
 const Contact = () => (
   <Main
     title="Contact"
-    description="Contact Yizhou Li via email @ hi@mldangelo.com"
+    description="Contact Joey Li via email @ yizhoul74@gmail.com"
   >
     <article className="post" id="contact">
       <header>

@@ -12,14 +12,14 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Yizhou Li</h2>
+        <h2>Joey Li</h2>
         <p><a href="yizhoul74@gmail.com">yizhoul74@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Yizhou Li. I am junior Full Stack Developer.
+      <p>Hi, I&apos;m Joey Li. I am junior Full Stack Developer.
         I graduated from Western University with a master&apos;s degree
         in computer science. Now I am currently working as a
         Full Stack Developer at Genvoice Telecom.
