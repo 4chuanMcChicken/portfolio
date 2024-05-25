@@ -12,6 +12,12 @@ module.exports = {
     'build/',
   ],
   parser: '@babel/eslint-parser',
+  parserOptions: {
+    requireConfigFile: false,
+    babelOptions: {
+      presets: ['@babel/preset-react'],
+    },
+  },
   plugins: ['react'],
   rules: {
     'no-console': 'off',

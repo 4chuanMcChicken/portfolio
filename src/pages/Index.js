@@ -36,9 +36,13 @@ const Index = () => {
               <p style={{
                 fontWeight: '500', fontSize: '1em', verticalAlign: 'middle', display: 'inline-block', marginRight: '0.5em',
               }}
-              >Build in ReactJS
+              >Build in
               </p>
-              <img alt="" style={{ width: '4em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+              <img alt="" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+              <img alt="" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" />
+              <img alt="" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg" />
+              <img alt="" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg" />
+
             </div>
 
             <p>
