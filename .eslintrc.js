@@ -14,6 +14,8 @@ module.exports = {
   parser: '@babel/eslint-parser',
   plugins: ['react'],
   rules: {
+    'no-console': 'off',
+    'react/prop-types': 'off', // 禁用 prop-types 检查
     'jsx-a11y/anchor-is-valid': ['error', {
       aspects: ['noHref', 'invalidHref', 'preferButton'],
       components: ['Link'],
@@ -23,12 +25,9 @@ module.exports = {
     'jsx-a11y/href-no-hash': 'off',
     'jsx-a11y/no-static-element-interactions': 0,
     'linebreak-style': ['error', os.EOL === '\r\n' ? 'windows' : 'unix'],
-    'no-console': ['error', {
-      allow: ['warn', 'error', 'info'],
-    }],
     'no-underscore-dangle': 0,
     'react/destructuring-assignment': 0,
-    'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
+    'react/function-component-definition': 'off',
     'react/jsx-filename-extension': [1, {
       extensions: ['.js', '.jsx'],
     }],

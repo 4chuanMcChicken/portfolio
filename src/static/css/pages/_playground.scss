@@ -1,0 +1,10 @@
+.d3-main-container{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   .graph{
+    margin-top: 40px;
+    width: 80%;
+   }
+}

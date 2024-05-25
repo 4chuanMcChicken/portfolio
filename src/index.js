@@ -4,9 +4,9 @@ import App from './App';
 
 // See https://reactjs.org/docs/strict-mode.html
 const StrictApp = () => (
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // <React.StrictMode>
+  <App />
+  // </React.StrictMode>?
 );
 
 const rootElement = document.getElementById('root');

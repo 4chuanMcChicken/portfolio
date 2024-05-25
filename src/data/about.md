@@ -10,9 +10,9 @@ If you want to know more aboput me, please feel free to get in touch.
 
 # I like
 
-- Gaming (Especially EA FC24)
 - Soccer
 - VolleyBall
 - Guitar
 - Cooking
+- Gaming (Especially EA FC24)
 - Summer
