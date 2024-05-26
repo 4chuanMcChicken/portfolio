@@ -9,7 +9,7 @@ const Playground = () => {
   useEffect(() => {
     const recordVisit = async () => {
       try {
-        const response = await axios.get('api/d3js/recent_visit_count/');
+        const response = await axios.get('https://yizhou.me/api/d3js/recent_visit_count/');
         console.log(response.data);
       } catch (error) {
         console.error('Error recording visit:', error);
