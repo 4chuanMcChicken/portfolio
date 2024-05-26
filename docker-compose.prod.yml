@@ -1,9 +1,6 @@
 version: '3.8'
 services:
   frontend-prod:
-    build:
-      context: .
-      dockerfile: Dockerfile.prod
     restart: always
     image: "yizhouli/personal-site:v1.0.8"
     ports:
