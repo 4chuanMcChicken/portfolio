@@ -12,7 +12,7 @@ const Index = () => {
     const recordVisit = async () => {
       try {
         if (!visitedPages.about) {
-          const response = await axios.get('https://yizhou.me/api/d3js/record_visit/');
+          const response = await axios.get('http://yizhou.me/api/d3js/record_visit/');
           console.log('Visit recorded successfully!', response.data);
           markPageAsVisited('about');
         }
