@@ -2,7 +2,7 @@ version: '3.8'
 services:
   frontend-prod:
     restart: always
-    image: "yizhouli/portfolio-frontend:v1.0.10"
+    image: "yizhouli/portfolio-frontend:v1.0.11"
     ports:
       - "8086:80"
     volumes:
