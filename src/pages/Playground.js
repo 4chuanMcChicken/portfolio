@@ -34,7 +34,7 @@ const Playground = () => {
               title="graph Chart"
               width="100%"
               height="584"
-              src="https://observablehq.com/embed/641d25d574a5460b@404?cells=chart"
+              src="https://observablehq.com/embed/641d25d574a5460b@407?cells=chart"
             />
           </div>
         </div>
