@@ -38,11 +38,10 @@ const Index = () => {
               }}
               >Build in
               </p>
-              <img alt="" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
-              <img alt="" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" />
-              <img alt="" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+              <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+              <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" />
+              <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
             </div>
-
             <p>
               It is designed to showcase my professional skills, personal projects, and interests.
             </p>

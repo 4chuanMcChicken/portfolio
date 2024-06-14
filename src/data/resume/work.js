@@ -13,7 +13,7 @@
  */
 const work = [
   {
-    name: 'Genvoice Telecom',
+    name: 'Gelenk Network Inc.',
     position: 'Full Stack Developer',
     url: 'https://www.genvoice.net/',
     startDate: '2023-09-01',

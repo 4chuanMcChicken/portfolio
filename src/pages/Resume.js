@@ -6,6 +6,7 @@ import Main from '../layouts/Main';
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
+// import Timeline from '../components/Resume/Timeline';
 // import Courses from '../components/Resume/Courses';
 // import References from '../components/Resume/References';
 
@@ -24,27 +25,32 @@ const sections = {
 };
 
 const Resume = () => (
-  <Main
-    title="Resume"
-    description="Joey Li's Resume."
-  >
-    <article className="post" id="resume">
-      <header>
-        <div className="title">
-          <h2><Link to="resume">Resume</Link></h2>
-          <div className="link-container">
-            {Object.keys(sections).map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>))}
+  <>
+    <Main
+      title="Resume"
+      description="Joey Li's Resume."
+    >
+      <article className="post" id="resume">
+        <header>
+          <div className="title">
+            <h2><Link to="resume">Resume</Link></h2>
+            <div className="link-container">
+              {Object.keys(sections).map((sec) => (
+                <h4 key={sec}>
+                  <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+                </h4>))}
+            </div>
           </div>
-        </div>
-      </header>
-      {Object.entries(sections).map(([name, Section]) => (
-        <Section key={name} />
-      ))}
-    </article>
-  </Main>
+        </header>
+        {/* <Timeline /> */}
+        {Object.entries(sections).map(([name, Section]) => (
+          <Section key={name} />
+        ))}
+
+      </article>
+    </Main>
+
+  </>
 );
 
 export default Resume;

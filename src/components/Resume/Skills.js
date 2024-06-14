@@ -8,6 +8,7 @@ const Skills = ({ skills, categories }) => {
   const initialButtons = Object.fromEntries([['All', false]].concat(categories.map(({ name }) => [name, false])));
 
   const [buttons, setButtons] = useState(initialButtons);
+  const [version, setVersion] = useState(0);
 
   const handleChildClick = (label) => {
     // Toggle button that was clicked. Turn all other buttons off.
@@ -17,6 +18,7 @@ const Skills = ({ skills, categories }) => {
     }), {});
     // Turn on 'All' button if other buttons are off
     newButtons.All = !Object.keys(buttons).some((key) => newButtons[key]);
+    setVersion((prevVersion) => prevVersion + 1);
     setButtons(newButtons);
   };
 
@@ -42,7 +44,7 @@ const Skills = ({ skills, categories }) => {
         <SkillBar
           categories={categories}
           data={skill}
-          key={skill.title}
+          key={`${skill.title}-${version}`}
         />
       ));
   };
