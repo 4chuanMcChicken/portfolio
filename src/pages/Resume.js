@@ -40,12 +40,12 @@ const Resume = () => (
           <div className="title title-flex">
             <div style={{ display: 'flex' }}>
               <h2><Link to="/resume">Resume</Link></h2>
-              <FaEye
+              {/* <FaEye
                 className="download-resume-icon"
                 onClick={handleViewOnline}
                 onMouseOver={(e) => e.currentTarget.style.color = 'blue'}
                 onMouseOut={(e) => e.currentTarget.style.color = 'black'}
-              />
+              /> */}
               <FaFileDownload
                 className="download-resume-icon"
                 onClick={handleDownload}
