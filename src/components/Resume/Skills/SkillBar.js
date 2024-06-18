@@ -31,7 +31,7 @@ const SkillBar = ({ data, categories }) => {
   return (
     <div ref={skillBarRef} className="skillbar">
       <div className="skillbar-title" style={titleStyle}><span>{title}</span></div>
-      <div>
+      <div className="skill-bar-icon-container">
         {icon && <img className="skill-bar-icon" alt={titleStyle} src={icon} />}
       </div>
     </div>

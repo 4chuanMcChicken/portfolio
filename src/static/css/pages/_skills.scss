@@ -31,6 +31,7 @@
 	margin-bottom:15px;
 	margin-left:10px;
 	width:130px;
+
 	// height:35px;
 	border-radius:3px;
 	-moz-border-radius:3px;
@@ -120,9 +121,17 @@
 	color:rgba(0, 0, 0, 0.4);
 }
 
+.skill-bar-icon-container{
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	height: 130px,
+}
+
 .skill-bar-icon {
 	width:100%;
 	padding: 10px;
+	max-height: 130px;
 }
 
 @include breakpoint(small) {
