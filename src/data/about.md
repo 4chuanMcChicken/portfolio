@@ -10,12 +10,6 @@ If you want to know more aboput me, please feel free to get in touch.
 
 # I like
 
-- Soccer
-- VolleyBall
-- Guitar
-- Cooking
-- Video Games (Especially EA FC24)
-- Summer !
 
 <style>
 .unifans-link {

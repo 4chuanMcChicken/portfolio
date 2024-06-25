@@ -1,6 +1,7 @@
 import React, { useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import { TypeAnimation } from 'react-type-animation';
 import { VisitContext } from '../context/VisitContext'; // 假设你将 Provider 放在这个路径
 
 import Main from '../layouts/Main';
@@ -39,12 +40,19 @@ const Index = () => {
               >Build in
               </p>
               <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
-              <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" />
-              <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+              <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" />
+              <img alt="" className="img-animated" style={{ height: '5em', marginRight: '1em', marginBottom: '-1em' }} src="https://cloudiofy.com/wp-content/uploads/2020/06/aws-ec2.png" />
+
             </div>
-            <p>
-              It is designed to showcase my professional skills, personal projects, and interests.
-            </p>
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed once, initially
+                'It is designed to showcase my professional skills, personal projects, and interests 😬',
+                1000,
+              ]}
+              speed={50}
+              // repeat={Infinity}
+            />
           </div>
         </header>
         <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,

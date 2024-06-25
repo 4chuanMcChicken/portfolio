@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
-import EmailLink from '../components/Contact/EmailLink';
+// import EmailLink from '../components/Contact/EmailLink';
 
 const Contact = () => (
   <Main
@@ -17,7 +17,8 @@ const Contact = () => (
       </header>
       <div className="email-at">
         <p>Feel free to get in touch. You can email me at: </p>
-        <EmailLink />
+        {/* <EmailLink /> */}
+        <p className="email-style">yizhoul74@gmail.com</p>
       </div>
     </article>
   </Main>
