@@ -33,13 +33,16 @@ const About = () => {
             <p>(in about {count} words)</p>
           </div>
         </header>
-        <Markdown>
+        <Markdown
+          data-aos="zoom-y-out"
+          data-aos-delay={300}
+        >
           {markdown}
         </Markdown>
         <TypeAnimation
           style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
           sequence={[
-            '• Soccer ⚽️\n• VolleyBall 🏐\n• Guitar 🎸\n• Cooking 🍛\n• Video Games (Especially EA FC24)\n• Summer 🌞', // actual line-break inside string literal also gets animated in new line, but ensure there are no leading spaces
+            '• Soccer ⚽️\n• VolleyBall 🏐\n• Guitar 🎸\n• Cooking 🍛\n• Video Games 🎮 (Especially EA FC24)\n• Summer 🌞', // actual line-break inside string literal also gets animated in new line, but ensure there are no leading spaces
             1500,
             '',
           ]}

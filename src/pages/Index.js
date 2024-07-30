@@ -33,16 +33,17 @@ const Index = () => {
         <header>
           <div className="title">
             <h2><Link to="/">About this site</Link></h2>
-            <div style={{ marginBottom: '1em' }}>
+            <div style={{ marginBottom: '1em' }} className="flex items-center mt-4">
               <p style={{
-                fontWeight: '500', fontSize: '1em', verticalAlign: 'middle', display: 'inline-block', marginRight: '0.5em',
+                fontWeight: '500', fontSize: '1em', marginRight: '0.5em',
               }}
               >Build in
               </p>
-              <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
-              <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" />
-              <img alt="" className="img-animated" style={{ height: '5em', marginRight: '1em', marginBottom: '-1em' }} src="https://cloudiofy.com/wp-content/uploads/2020/06/aws-ec2.png" />
-
+              <div className="flex py-3">
+                <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+                <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" />
+                <img alt="" className="img-animated" style={{ height: '5em', marginRight: '1em', marginBottom: '-1em' }} src="https://cloudiofy.com/wp-content/uploads/2020/06/aws-ec2.png" />
+              </div>
             </div>
             <TypeAnimation
               sequence={[
@@ -55,7 +56,11 @@ const Index = () => {
             />
           </div>
         </header>
-        <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
+        <p
+          className="pb-5"
+          data-aos="zoom-x-out"
+          data-aos-delay={300}
+        > Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
           or you can check out my {' '}
           <Link to="/resume">resume</Link>, {' '}
           <Link to="/projects">projects</Link>, {' '}
