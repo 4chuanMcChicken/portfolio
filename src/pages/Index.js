@@ -34,11 +34,8 @@ const Index = () => {
           <div className="title">
             <h2><Link to="/">About this site</Link></h2>
             <div style={{ marginBottom: '1em' }} className="flex items-center mt-4">
-              <p style={{
-                fontWeight: '500', fontSize: '1em', marginRight: '0.5em',
-              }}
-              >Build in
-              </p>
+              <div className="text-3xl pr-5">Build in
+              </div>
               <div className="flex py-3">
                 <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
                 <img alt="" className="img-animated" style={{ width: '4em', marginRight: '1em' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" />

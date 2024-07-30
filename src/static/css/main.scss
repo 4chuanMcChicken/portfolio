@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import-normalize;
 
 @import 'libs/vars';
@@ -70,7 +74,3 @@
 	@import 'pages/stats';
 	@import 'pages/playground';
 
-	@tailwind base;
-	@tailwind components;
-	@tailwind utilities;
-	

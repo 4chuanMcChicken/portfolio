@@ -23,7 +23,6 @@ const Playground = lazy(() => import('./pages/Playground')); // AOS JS
 const App = () => {
   useEffect(() => {
     AOS.init({
-      disable: 'phone',
       duration: 700,
       easing: 'ease-out-cubic',
     });

@@ -20,7 +20,7 @@ const SideBar = () => (
       <header>
         <h2>Joey Li</h2>
         <p className="mt-3"><a href="yizhoul74@gmail.com">yizhoul74@gmail.com</a></p>
-        <div className="flex mt-3">
+        <div className="flex mt-3 justify-center md:justify-start">
           <FaGithub className="github-icon" size={20} />
           <a href="https://github.com/4chuanMcChicken">4chuanMcChicken</a>
         </div>
