@@ -2,6 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 
+const formatDescription = (desc) => desc.split('\n').map((item) => (
+  <>
+    {item}
+    <br />
+  </>
+));
+
 const Cell = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
@@ -13,7 +20,7 @@ const Cell = ({ data }) => (
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
       </a>
       <div className="description">
-        <p>{data.desc}</p>
+        <p>{formatDescription(data.desc)}</p>
       </div>
     </article>
   </div>
