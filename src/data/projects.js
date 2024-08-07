@@ -12,6 +12,14 @@ const data = [
       + 'Unifans is perfectly responsive for all devices \n\n  Technical Stack: Node.js, Express.js, Vue3, CouchDB, Redis, Docker, TypeScript, AWS EC2, AWS S3',
   },
   {
+    title: 'Intelligent Warehouse Management System',
+    link: 'https://github.com/4chuanMcChicken/WareHouseManagementFrontEnd',
+    image: '/images/projects/WarehouseManagement_System.png',
+    date: '2024-03-01',
+    desc:
+      'Developed a SaaS administrative management system for warehouses, offering functionalities such as inbound logistics, smart outbound logistics, automatic generation of monthly bills, and pallet statistics. This system has been successfully deployed and is currently in production use in several warehouses in the Toronto area, with ongoing technical support and development provided to ensure optimal performance. \n\n Technical Stack: React, Node.js, MongoDB, Typescript',
+  },
+  {
     title: 'Burrito Lab',
     link: 'https://burrito.money/',
     image: '/images/projects/Burrito_Lab.png',
@@ -19,16 +27,7 @@ const data = [
     desc:
       `Burrito Lab is an All-in-One Blockchain Services Hub, focusing on developing advanced technologies on the Luna Claiisc blockchain. There are multiple stages in the program, and the initial stage of establishing a validator node has been successfully completed.
 
-      Technical Stack: Next.js, Tailwind CSS, Material UI, Terrad
-      `,
-  },
-  {
-    title: 'Warehouse Management System',
-    link: 'https://github.com/4chuanMcChicken/WareHouseManagementFrontEnd',
-    image: '/images/projects/WarehouseManagement_System.png',
-    date: '2024-03-01',
-    desc:
-      'Developed an administrative management system for warehouse operations, offering functionalities such as inbound logistics, smart outbound logistics, automatic generation of monthly bills, and pallet statistics. The system has been in production use for several months, and we continue to provide technical support and ongoing development. \n\n Technical Stack: React, Node.js, MongoDB, Typescript',
+      Technical Stack: Next.js, Tailwind CSS, Material UI, Terrad`,
   },
   {
     title: 'AI QRcode Generator',
@@ -38,8 +37,7 @@ const data = [
     desc:
       `Powered By Stable Diffusion API and RunPod (GPU), you can create an impressive AI QRCode by simply input a prompt in just 10 seconds!
 
-       Technical Stack: Python, FastAPI, Stable Diffusion API
-     `,
+       Technical Stack: Python, FastAPI, Stable Diffusion API`,
   },
   {
     title: 'AI Travel Planner',
